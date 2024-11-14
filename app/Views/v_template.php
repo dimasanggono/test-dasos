@@ -55,7 +55,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
                     <!-- Messages Dropdown Menu -->
                     <li class="nav-item dropdown">
-                        <a href="#" class=" btn btn-sm btn-primary" data-toggle="dropdown" href="#">
+                        <a href="<?= base_url('AuthController/logout') ?>" class=" btn btn-sm btn-primary" data-toggle="dropdown" href="#">
                             Logout
                             <i class="fa fa-arrow-right" aria-hidden="true"></i>
                         </a>
